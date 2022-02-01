@@ -1,4 +1,4 @@
-package com.rodrigocosta.cursojava1.services;
+package com.rodrigocosta.cursojava1.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
