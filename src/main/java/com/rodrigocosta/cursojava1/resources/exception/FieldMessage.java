@@ -5,24 +5,24 @@ import java.io.Serializable;
 public class FieldMessage implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	private String fielname;
+	private String fieldname;
 	private String message;
 
 	public FieldMessage() {
 	}
 
-	public FieldMessage(String fielname, String message) {
+	public FieldMessage(String fieldname, String message) {
 		super();
-		this.fielname = fielname;
+		this.fieldname = fieldname;
 		this.message = message;
 	}
 
-	public String getFielname() {
-		return fielname;
+	public String getFieldname() {
+		return fieldname;
 	}
 
-	public void setFielname(String fielname) {
-		this.fielname = fielname;
+	public void setFieldname(String fieldname) {
+		this.fieldname = fieldname;
 	}
 
 	public String getMessage() {
